@@ -423,7 +423,7 @@ main a {
     }
 }
 
-@media(max-width: 450px){
+@media(max-width: 320px){
 
     .div1 {
         flex-direction: column;
