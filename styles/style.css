@@ -220,8 +220,11 @@ main a {
     }
 
     .fig2 {
-        width: 25%;
-        margin: 0% 0% 5% 0%;
+        width: 40%;
+    }
+    
+    .fig2 img {
+        width: 20%;
     }
 
     .nav3 ul{
@@ -236,12 +239,11 @@ main a {
 @media (min-width: 1280px) {
 
     .fig2 {
-        width: 15%;
-        margin: 0% 0% 5% 0%;
+        width: 30%;
     }
-
+    
     .fig2 img {
-        width: 35%;
+        width: 20%;
     }
 }
 
@@ -257,15 +259,21 @@ main a {
     }
 
     .fig2 {
-    width: 20%;
-    margin: 0% 0% 5% 0%;
+        width: 25%;
+    }
+    
+    .fig2 img {
+        width: 20%;
     }
 }
 
 @media (min-width: 1980px) {
 
-.fig2 {
-    width: 15%;
-    margin: 0% 0% 5% 0%;
-}
+    .fig2 {
+        width: 20%;
+    }
+    
+    .fig2 img {
+        width: 20%;
+    }
 }
