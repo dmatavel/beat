@@ -16,7 +16,7 @@ header {
     align-items: center;
     justify-content: center;
     background-color: #129799;
-    padding: 8% 2% 8% 2%;
+    padding: 2% 2% 2% 2%;
     width: 100%;
 }
 
@@ -42,7 +42,6 @@ header {
     display: flex;
     align-items: center;
     justify-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -50,7 +49,7 @@ header {
     margin-top: 15%;
     font-family: 'Roboto', sans-serif;
     color: #F7F7F7;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .div1 img {
@@ -179,20 +178,35 @@ main a {
 
 @media (min-width: 1024px) {
 
+    header {
+        align-items: initial;
+    }
+    
+    .nav1 ul {
+        margin-left: 35%;
+        width: 30%;
+    }
+
+    .nav1 li {
+        padding: 5% 0% 0% 0%;
+    }
+    
     .div1 {
         flex-flow: row nowrap;
     }
 
     .div1 h1 {
-        margin-top: 2%;
-        font-size: xx-large;
+        margin-top: 1%;
+        margin-left: 2%;
+        font-size: 3rem;
     }
     
     .div1 img {
-        width: 40%;
+        width: 50%;
     }
 
     .nav2 {
+        margin-left: 28%;
         width: 45%;
     }
 
@@ -220,11 +234,12 @@ main a {
     }
 
     .fig2 {
-        width: 40%;
+        align-self: flex-start;
+        width: 25%;
     }
     
     .fig2 img {
-        width: 20%;
+        width: 15%;
     }
 
     .nav3 ul{
@@ -238,24 +253,14 @@ main a {
 
 @media (min-width: 1280px) {
 
-    .fig2 {
-        width: 30%;
-    }
-    
-    .fig2 img {
-        width: 20%;
-    }
-}
-
-@media (min-width: 1366px) {
-
     .div1 h1 {
-    margin-top: 2%;
-    font-weight: bold;
+        margin-top: 1%;
+        font-size: 3.8rem;
     }
 
     .div1 img {
-    width: 40%;
+        width: 50%;
+
     }
 
     .fig2 {
@@ -263,17 +268,48 @@ main a {
     }
     
     .fig2 img {
-        width: 20%;
+        width: 15%;
     }
 }
 
-@media (min-width: 1980px) {
+@media (min-width: 1366px) {
+
+    .div1 h1 {
+        margin-top: 1%;
+        font-size: 4rem;
+    }
+
+    .div1 img {
+        width: 50%;
+
+    }
 
     .fig2 {
         width: 20%;
     }
     
     .fig2 img {
-        width: 20%;
+        width: 15%;
+    }
+}
+
+@media (min-width: 1920px) {
+
+    .div1 h1 {
+        margin-top: 1.5%;
+        font-size: 5.5rem;
+    }
+
+    .div1 img {
+        width: 50%;
+
+    }
+
+    .fig2 {
+        width: 25%;
+    }
+    
+    .fig2 img {
+        width: 15%;
     }
 }
